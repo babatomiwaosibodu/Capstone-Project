@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   spring-framework-petclinic:
-    image: babatomiwaosibodu/spring-framework-petclinic 
+    image: springcommunity/spring-framework-petclinic 
     container_name: spring-petclinic 
     tty: true
       #restart: unless-stopped
