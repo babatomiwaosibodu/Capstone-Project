@@ -8,8 +8,8 @@ pipeline{
     	AWS_ACCESS_KEY_ID = AKIAX722HVIAIGEILKG6
     	AWS_SECRET_ACCESS_KEY = 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
     	AWS_REGION = 'ap-southeast-1'
-    	TF_FOLDER = '/var/lib/jenkins/workspace/terraform-ansible-prov-conf/Deliverables/vpc_ec2_terraform/'
-    	ANS_FOLDER = '/var/lib/jenkins/workspace/terraform-ansible-prov-conf/Deliverables/ansible-plays/'
+    	TF_FOLDER = '/var/lib/jenkins/workspace/capstone-project/Deliverables/vpc_ec2_terraform/'
+    	ANS_FOLDER = '/var/lib/jenkins/workspace/capstone-project/Deliverables/ansible-plays/'
     }
     stages{
         stage('Git checkout'){
